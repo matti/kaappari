@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 if [[ $# -le 1 || ( $# == "--help") ||  $# == "-h" ]]; then
-	echo "usage: kaappari http://www.example.com example.png"
+	echo "usage: kaappari http://www.example.com example.png 800x600"
 	exit 1
 fi
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 $DIR/../lib/node_modules/kaappari/node_modules/phantomjs/bin/phantomjs \
-	$DIR/../lib/node_modules/kaappari/runner.js $1 $2
+	$DIR/../lib/node_modules/kaappari/runner.js $@
