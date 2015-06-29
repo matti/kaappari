@@ -1,5 +1,10 @@
 # kaappari
 
-		$ kaappari http://www.example.com example.png
+## usage
 
+	$ kaappari http://www.example.com example.png
+
+## install
+
+	$ npm install -g git+https://git@github.com/matti/kaappari.git  
 
