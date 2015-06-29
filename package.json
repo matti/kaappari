@@ -1,0 +1,13 @@
+{
+  "name": "kaappari",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Matti Paksula",
+  "license": "MIT",
+  "bin": {
+    "kaappari": "./bin/kaappari"
+  },
+  "dependencies": {
+    "phantomjs": "x"
+  }
+}
