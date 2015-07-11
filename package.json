@@ -4,10 +4,14 @@
   "description": "",
   "author": "Matti Paksula",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matti/kaappari.git"
+  },
   "bin": {
     "kaappari": "./bin/kaappari"
   },
   "dependencies": {
-    "phantomjs": "x"
+    "phantomjs": "~1.9.17"
   }
 }
